@@ -1,0 +1,443 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* CSS for header */
+
+.header{
+    height: 90px;
+    width: 100%;
+    /* background-color: rgba(16,128,234,1); */
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+
+.container{
+    width: 90%;
+    /* background-color: rgb(155, 154, 154); */
+    display: flex;
+}
+
+.header_container{
+    justify-content: space-between;
+}
+
+.logo{
+    height: 90px;
+    width: 15%;
+    /* background-color: yellow; */
+    font-size: 40px;
+    font-family: Segoe UI;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    line-height: 90px;
+}
+.nav{
+    height: 90px;
+    width: 35%;
+    /* background-color: green; */
+    display: flex;
+}
+
+.nav-item{
+    height: 90px;
+    width: 20%;
+    font-family: Segoe UI;
+    text-align: center;
+    line-height: 90px;
+    color: white;
+    cursor: pointer;
+    transition: .4s;
+}
+
+
+.nav-item:hover{
+    background-color: white;
+    color: #9a7dce;
+}
+
+.banner{
+    height: 95vh;
+    width: 100%;
+    background-color: gray;
+    background-image: url('./Images/banner.jpg');
+    /* background-position: center;
+    background-repeat: no-repeat; */
+    background-size: cover;
+}
+
+.overlay{
+    height: 95vh;
+    width: 100%;
+    background-color: rgb(0,0,0,0.6); 
+    display: flex;
+    align-items: center;
+}
+
+.banner_text{
+    height: 350px;
+    width: 50%;
+    background-color: rgba(16,128,234,0.7);
+    font-family: segoe UI;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.banner_titlt{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.banner_desc{
+    margin-bottom: 30px;
+}
+.padding{
+    padding: 50px;
+    /* background-color: red; */
+}
+.banner_btn{
+    padding-left: 60px;
+    padding-right: 60Px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    border: 3px solid white;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.banner_btn:hover{
+    background-color: white;
+    color: rgba(16,128,234,1);
+}
+
+/* CSS for services */
+.services{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #d2d2d2;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: Segoe UI;
+}
+
+.services_container{
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service{
+    height: 400px;
+    width: 47%;
+    background-color:white;
+    display: flex;
+    margin-top: 20px;
+}
+
+.service_img{
+    width: 40%;
+    height: 400px;
+    /* background-color: red; */
+    display: flex;
+    overflow: hidden;
+}
+
+.service_details{
+    width: 60%;
+    height: 400px;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+}
+.service_padding{
+    padding: 20px;
+}
+
+.service_btn{
+    padding-left: 60px;
+    padding-right: 60Px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    background-color: rgba(16,128,234,0.7);
+    color: white;
+    font-weight: bold;
+    font-family: Segoe UI;
+    border:none;
+    cursor: pointer;
+    transition: .4s;
+}
+.service_title{
+    margin-bottom: 15px;
+
+}
+.service_desc{
+    margin-bottom: 30px;
+}
+
+/* css for about */
+
+.about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    /* background-color: gray; */
+    display: flex;
+    flex-direction: column;
+    font-family: Segeo UI;
+    align-items: center;
+  
+}
+
+.about_container{
+    margin-top: 30px;
+    line-height: 30px;
+    display: inline;
+}
+.start_text{
+    font-size: 40px;
+    font-weight: bold;
+    color: grey;
+}
+
+/* css for highlights */
+.highlight{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    background-color: rgba(16,128,234,0.7);
+    display: flex;
+    justify-content: center;
+}
+
+.highlight_container{
+    justify-content: space-between;
+}
+.high_ele{
+    width: 22%;
+    height: 230px;
+    background-color: rgb(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Seogi UI;
+    text-align: center;
+    color: white;
+}
+
+.high_title{
+    font-size: 60px;
+}
+.high_desc{
+    font-size: 25px;
+
+}
+/* css for quote */
+
+.quote{
+padding-top: 50px;
+padding-bottom: 50px;
+width: 100%;
+/* background-color: grey; */
+display: flex;
+justify-content: center;
+font-family: Segeo UI;
+}
+
+.quote_container{
+flex-direction: column;
+align-items: center;
+}
+
+.quote_title{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.quote_btn{
+    padding-left: 60px;
+    padding-right: 60Px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    background-color: rgba(16,128,234,0.7);
+    color: white;
+    font-weight: bold;
+    font-family: Segoe UI;
+    border:none;
+    cursor: pointer;
+    transition: .4s;
+}
+
+/* CSS for portfolio */
+.portfolio{
+    /* padding-top: 50px;
+    padding-bottom: 50px; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    font-family: Segoe UI;
+}
+
+.portfolio_container{
+    padding-top: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    /* margin-top: 30px; */
+}
+.project{
+    width: 25%;
+    height: 400px;
+    background-color: red;
+    display: flex;
+    overflow: hidden;
+}
+.project_1{
+    background-image: url('https://images.pexels.com/photos/996329/pexels-photo-996329.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+}
+.project_2{
+    background-image: url(https://th.bing.com/th/id/R.3af8541305783d7673c5513ebe2897e7?rik=yrwdHWRPWNqzUw&riu=http%3a%2f%2fwww.saga.co.uk%2fcontentlibrary%2fsaga%2fpublishing%2fverticals%2ftravel%2fdestinations%2feurope%2flalaria-beach.jpg&ehk=rY%2fIkE8j7g1LXOgGJNk8Yw1nS%2fEc7LZNaig7p905Jtw%3d&risl=&pid=ImgRaw);
+    background-size: cover;
+    align-items: flex-end;
+
+}
+
+.project_3{
+    background-image: url(https://assets-us-01.kc-usercontent.com/4df0558d-5779-0012-00f2-b3fa06d6c950/59613c91-8a26-4dab-ae86-622eb5fc35a9/Will%20the%20Bitcoin%20bubble%20burst_%20Four%20predictions%20about%20the%20future%20of%20crypto%20Thumb.jpeg?w=350);
+    background-size: cover;
+}
+
+.project_4{
+    background-image: url(https://th.bing.com/th/id/OIP.VOAsWIKOxtvLJGVh_gNSPQHaHa?pid=ImgDet&w=650&h=650&rs=1);
+    background-size: cover;
+    align-items: flex-end;
+}
+
+.project_5{
+    background-image: url(https://universalacademy.com/wp-content/uploads/2018/04/xxxx_spo_ocr-l-soccer-generic-stock-001-480x340.jpg);
+    background-size: cover;
+}
+
+.project_6{
+    background-image: url(http://costoflivingproject.weebly.com/uploads/3/7/1/5/37156231/1608689.jpg);
+    background-size: cover;
+    align-items: flex-end;
+}
+
+.project_7{
+    background-image: url(http://img.kb-cdn.com/imgviewer/NVpIM2ptOHhYRzVmUk5rM1NrNlFxYVV6enV4aGk2UFRJMmxPckdDUUVNYmJwR1A4U1pybkMzdWpWQkdSVzFibUtNQmJuTEVnWnhsRkpCYUVSanhCbW9WWXd1cVVmNERQdlBWYkxId1N3dExOOHJoVFRvQjRWS2dZTUFjZUplblpFclBSVkhybithN29oNmVEa25uam4vMjZ6Q1h5T29wMVVRakFzeU82Snc3b1RCZnpPbDJITEgyZUY2OENxNzZUMG12cmw3R2ZHd3FzVCtBN21jS3YwUT09?square=0);
+    background-size: cover;
+}
+
+.project_8{
+    background-image: url(https://patch.com/img/cdn20/users/22994611/20180808/094647/styles/raw/public/processed_images/classical-music-shutterstock_310517414-1533735614-4225.jpg?width=350);
+    background-size: cover;
+    align-items: flex-end;
+}
+
+.project_title{
+    width: 100%;
+    height: 150px;
+    text-indent: 30px;
+    line-height:200px ;
+    /* color: white; */
+    background-color: rgba(16,128,234,0.7);
+    cursor: pointer;
+    transition:.4s ;
+}
+
+.project_title:hover{
+    height: 400px;
+}
+
+/* css for footer */
+
+.footer{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(241, 236, 236);
+    display:flex;
+    justify-content: center;
+
+}
+
+.footer_child{
+    height: 300px;
+    width: 25%;
+    background-color: rgb(71, 71, 71);
+    font-family: Segoe UI;
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}
+.footer_child_1{
+    align-items: center;
+    font-style: bold;
+    font-size: 25px;
+}
+
+ul{
+    margin-top: 45px;
+}
+
+
+
+li{
+    list-style-type: none;
+    margin-bottom: 10px;
+
+}
+
+
+.first{
+    font-size: 25px;
+
+}
+
+.style1{
+    color: rgb(235, 235, 241);
+}
+
+
+.footer_child_4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_container{
+    width: 65%;
+    justify-content: space-between;
+}
+.social_icon{
+    height:50px ;
+    width: 50px;
+    /* background-color:white; */
+    background-size: cover;
+
+}
+
+.si1{
+    background-image: url('https://cdn4.iconfinder.com/data/icons/socialcones/508/Facebook-256.png');
+}
+.si2{
+    background-image: url('https://cdn2.iconfinder.com/data/icons/social-icons-color/512/gmail-128.png');
+}
+.si3{
+    background-image: url('https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-128.png');
+}
+.si4{
+    background-image: url('https://cdn2.iconfinder.com/data/icons/social-media-applications/64/social_media_applications_3-instagram-128.png');
+}

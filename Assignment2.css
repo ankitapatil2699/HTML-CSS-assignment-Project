@@ -1,0 +1,14 @@
+.one {
+    
+    height: 110px;
+    background-color: gray;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(21, 19, 116);
+    font-size: 30px;
+    text-align: justify;
+}
+*{
+    width: 99%;
+    padding-left:5px;
+
+}
